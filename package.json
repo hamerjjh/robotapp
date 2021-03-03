@@ -1,0 +1,24 @@
+{
+  "name": "robotapp",
+  "version": "1.0.0",
+  "description": "# Site link: https://hamerjjh.github.io/robotapp/.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamerjjh/robotapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamerjjh/robotapp/issues"
+  },
+  "homepage": "https://github.com/hamerjjh/robotapp#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
+  }
+}
