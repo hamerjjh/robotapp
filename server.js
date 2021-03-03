@@ -2,6 +2,7 @@ require("dotenv").config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const RobotsController = require('./routes/RobotsController')
 
 
 const app = express();
@@ -21,6 +22,7 @@ console.log('Mongoose default connection error: ' + err);
 //Middleware
 app.use(bodyParser.json());
 app.use(express.static(__dirname + '/client/build/'));
+app.use('/api/robots', RobotsController)
 
 
 app.get('/', (req,res) => {
